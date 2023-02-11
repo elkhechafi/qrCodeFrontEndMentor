@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #d6e2f0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Outfit', sans-serif;
+}
+
+.card {
+  background-color: #ffffff;
+  text-align: center;
+  width: 322px;
+  height: 497px;
+  -webkit-box-shadow: -5px 4px 4px rgba(136, 136, 136, 0.17), 8px 7px 4px rgba(170, 170, 170, 0.16), 0px 4px 4px rgba(187, 187, 187, 0.25);
+          box-shadow: -5px 4px 4px rgba(136, 136, 136, 0.17), 8px 7px 4px rgba(170, 170, 170, 0.16), 0px 4px 4px rgba(187, 187, 187, 0.25);
+  border-radius: 20px;
+}
+
+.card .qrImg {
+  padding: 1rem;
+  max-height: auto;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.card .title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1f3252;
+  height: 10%;
+  width: 100%;
+  padding-top: 1vh;
+}
+
+.card .para {
+  color: #7b879d;
+  padding: 2vh 0%;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 80%;
+  margin: 0% 10%;
+  padding-top: 4vh;
+}
+/*# sourceMappingURL=style.css.map */
