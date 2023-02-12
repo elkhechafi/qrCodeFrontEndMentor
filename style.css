@@ -7,10 +7,8 @@
 }
 
 body {
-  height: 100%;
-  width: 100%;
-  min-height: 100vh;
   min-width: 100vw;
+  min-height: 100vh;
   background-color: #d6e2f0;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -24,7 +22,7 @@ body {
   font-family: 'Outfit', sans-serif;
 }
 
-.card {
+.main {
   background-color: #ffffff;
   text-align: center;
   width: 322px;
@@ -34,23 +32,23 @@ body {
   border-radius: 20px;
 }
 
-.card .qrImg {
+.main .qrImg {
   padding: 1rem;
   max-height: auto;
   width: 100%;
   border-radius: 30px;
 }
 
-.card .title {
+.main .title {
   font-size: 1.4rem;
   font-weight: 700;
   color: #1f3252;
   height: 10%;
   width: 100%;
-  padding-top: 1vh;
+  padding: 2vh 4% 0vh 4%;
 }
 
-.card .para {
+.main .para {
   color: #7b879d;
   padding: 2vh 0%;
   font-size: 1rem;
